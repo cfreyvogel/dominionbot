@@ -11,7 +11,9 @@ class TextInterface:
         return self.player.hand.get_indices_by_tag("Treasure")
     
 class TextMenu:
+    """Used for getting selections"""
     def __init__(self, options_dict: dict):
         self.options_dict = options_dict
 
-    
+    def get_option(self):
+        pass
